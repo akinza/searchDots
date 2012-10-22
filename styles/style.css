@@ -6,7 +6,7 @@
   overflow: hidden;
   top:50px;
   left:350px;
-  offset:10px;
+  background:#000;
 }
 
 #map-canvas {
@@ -24,14 +24,51 @@
   z-index:11;
 
 }
-.country{
-  width: 50px;
+.dots{
+  width: 70px;
   height: 20px;
-  background: rgba(255,255,255,0.6);
-  position: relative;
-  top: 250px;
-  left: 830px;
+  position: absolute;
   text-align:center;
+  font-weight:bold;
+  background:rgba(255,255,255,0.5);
+}
+
+.yellow{
+left:460px;
+top:730px;
+}
+.blue{
+left: 218px;
+top:495px;
+}
+.maroon{
+left:497px;
+top:423px;
+}
+.light-green{
+left:111px;
+top:152px;
+}
+.pink{
+left:376px;
+top:95px;
+}
+.green{
+left:827px;
+top:102px;
+
+}
+.red{
+left:970px;
+top:330px;
+}
+.acqua{
+left:797px;
+top:449px;
+}
+.orange{
+left:841px;
+top:727px;
 }
 
 body {

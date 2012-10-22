@@ -11,15 +11,33 @@
   </head>
   <body>
     <script type="text/javascript" src="scripts/script.js"></script>
+    <!--script type="text/javascript" src="scripts/vendor/backbone.js"></script-->
+    <!--script type="text/javascript" src="scripts/vendor/underscore.js"></script-->
     <div id="selector">
-      <ul class="nav nav-pills">
-        <li><a href="#">Go to India</a></li>
+      <ul class="nav nav-pills colors">
+          <li><a id="yellow" href="#" onclick="show(this.id)">Yellow</a></li>
+          <li><a id="blue" href="#"  onclick="show(this.id)">Blue</a></li>
+          <li><a id="maroon" href="#"  onclick="show(this.id)">Maroon</a></li>
+          <li><a id="light-green" href="#" onclick="show(this.id)">Light Green</a></li>
+          <li><a id="pink" href="#" onclick="show(this.id)">Pink</a></li>
+          <li><a id="green" href="#" onclick="show(this.id)">Green</a></li>
+          <li><a id="red" href="#" onclick="show(this.id)">Red</a></li>
+          <li><a id="acqua" href="#" onclick="show(this.id)">Acqua</a></li>
+          <li><a id="orange" href="#" onclick="show(this.id)">Orange</a></li>
       </ul>
     </div>
     <div id="map">
       <div id="map-canvas" class="ui-draggable">
         <div class="dots-layer" class="ui-draggable">
-          <div class="country india">India</div>
+          <div class="dots yellow">Yellow</div>
+          <div class="dots blue">Blue</div>
+          <div class="dots maroon">Maroon</div>
+          <div class="dots light-green" >Light Green</div>
+          <div class="dots pink">Pink</div>
+          <div class="dots green">Green</div>
+          <div class="dots red">Red</div>
+          <div class="dots acqua">Acqua</div>
+          <div class="dots orange">Orange</div>
         </div>
       </div>
     </div>
